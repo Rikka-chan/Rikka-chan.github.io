@@ -1,0 +1,87 @@
+.image-pc{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.image-category{
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+}
+
+.well{
+    overflow: scroll;
+    /*height: 410px;*/
+    overflow-x:hidden;
+    overflow-y:hidden;
+   -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url('./images/background.png');
+    position:relative;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.about_us{
+    border-radius: 5px;
+    padding:50px;
+    font-family: SansSerif;
+
+}
+.row > .collapse #category-place {
+    background-color: rgb(255, 255, 255);
+}
+
+.about_us p{
+    font-size:17px;
+}
+
+.item{
+    height: 500px;
+
+}
+
+.carousel-caption h3{
+    font-size:25px;
+}
+
+#carousel-example-generic{
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.carousel-dark img{
+    width: 100%;
+    opacity: 0.5;
+}
+.pcbox{
+    background-color: rgb(255, 255, 255);
+}
+
+.col-lg-4 a{
+    margin:0 auto;
+}
+
+.category-box{
+    text-align: center;
+}
+
+.category-box img:hover{
+    background-color: rgba(255, 249, 6, 0.41);
+    border-radius: 20px;
+}
+
+.navbar-collapse li:hover{
+    background-color: black;
+}
